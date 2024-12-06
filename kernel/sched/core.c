@@ -7458,7 +7458,6 @@ unsigned long effective_cpu_util(int cpu, unsigned long util_cfs,
 {
 	unsigned long util, irq, scale;
 	struct rq *rq = cpu_rq(cpu);
-	unsigned long new_util = ULONG_MAX;
 
 	scale = arch_scale_cpu_capacity(cpu);
 
