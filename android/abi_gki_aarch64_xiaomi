@@ -275,9 +275,6 @@
 #required by touch module
   power_supply_is_system_supplied
 
-#required by mi-power.ko
-  class_create_file_ns
-
 #required by mi_mempool.ko
   __traceiter_android_vh_alloc_pages_reclaim_bypass
   __traceiter_android_vh_alloc_pages_failure_bypass
